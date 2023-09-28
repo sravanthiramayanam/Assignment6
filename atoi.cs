@@ -34,11 +34,11 @@ namespace Assignment6
             }
             return result * sign;
         }
-        public static void Main(String[] args)
-        {
-            char[] str = " -123".ToCharArray();
-            int val = myAtoi(str);
-            Console.Write("{0} ", val);
-        }
+        //public static void Main(String[] args)
+        //{
+        //    char[] str = " -123".ToCharArray();
+        //    int val = myAtoi(str);
+        //    Console.Write("{0} ", val);
+        //}
     }
 }
