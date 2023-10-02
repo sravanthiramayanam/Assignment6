@@ -55,18 +55,16 @@ namespace Assignment6
                 }
             }
 
-            // Print the longest palindromic substring
             Console.WriteLine("Longest palindrome substring is: ");
             Console.WriteLine(s.Substring(start,  pLength));
 
         }
 
-        // Driver code
-        public static void Main(String[] args)
-        {
-            String s = "babad";
-            longestPalSubstr(s);
-        }
+        //public static void Main(String[] args)
+        //{
+        //    String s = "babad";
+        //    longestPalSubstr(s);
+        //}
     }
 
 }
