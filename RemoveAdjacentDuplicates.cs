@@ -47,10 +47,10 @@ namespace RemoveAdjacentDuplicates
         }
 
 
-        static public void Main()
-        {
-            String NoDupeStr = RemoveAdjacentDupe("azxxzy");
-            Console.WriteLine(NoDupeStr);
-        }
+        //static public void Main()
+        //{
+        //    String NoDupeStr = RemoveAdjacentDupe("azxxzy");
+        //    Console.WriteLine(NoDupeStr);
+        //}
     }
 }
