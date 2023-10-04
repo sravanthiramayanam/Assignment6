@@ -37,18 +37,18 @@ namespace Assignment6
             return result;
         }
 
-        public static void Main()
-        {
-            String X = "abcdxyz";
-            String Y = "xyzabcd";
+        //public static void Main()
+        //{
+        //    String X = "abcdxyz";
+        //    String Y = "xyzabcd";
 
-            int m = X.Length;
-            int n = Y.Length;
+        //    int m = X.Length;
+        //    int n = Y.Length;
 
-            Console.Write("Length of Longest Common"
-                        + " Substring is "
-                        + LCSubStr(X, Y, m, n));
-        }
+        //    Console.Write("Length of Longest Common"
+        //                + " Substring is "
+        //                + LCSubStr(X, Y, m, n));
+        //}
     }
 }
 
