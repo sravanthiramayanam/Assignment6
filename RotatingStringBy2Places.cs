@@ -36,13 +36,13 @@ namespace Assignment6
             return clockwise || anticlockwise; // if any of both is true, return true
         }
 
-        public static void Main()
-        {
-            string str1 = "amazon";
-            string str2 = "azonam";
+        //public static void Main()
+        //{
+        //    string str1 = "amazon";
+        //    string str2 = "azonam";
 
-            Console.WriteLine(IsRotated(str1, str2) ? "Yes" : "No");
-        }
+        //    Console.WriteLine(IsRotated(str1, str2) ? "Yes" : "No");
+        //}
     }
 }
 
