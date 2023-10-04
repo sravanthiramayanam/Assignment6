@@ -61,17 +61,16 @@ namespace MiddleOfLinkedList
             Console.WriteLine("NULL");
         }
 
-        static public void Main()
-        {
-           FindMiddleOfLinkedList llist = new FindMiddleOfLinkedList();
-           for (int i = 6; i > 0; --i)
-            {
-                llist.push(i);
+        //static public void Main()
+        //{
+        //   FindMiddleOfLinkedList llist = new FindMiddleOfLinkedList();
+        //   for (int i = 6; i > 0; --i)
+        //    {
+        //        llist.push(i);
 
-            }
-           llist.printList();
-            llist.printMiddle();
-
-        }
+        //    }
+        //   llist.printList();
+        //    llist.printMiddle();
+        //}
      }
 }
