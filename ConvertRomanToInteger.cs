@@ -31,19 +31,19 @@ namespace Assessment6
             return sum;
         }
 
-        public static void Main(String[] args)
-        {
+        //public static void Main(String[] args)
+        //{
 
-            roman['I'] = 1;
-            roman['V'] = 5;
-            roman['X'] = 10;
-            roman['L'] = 50;
-            roman['C'] = 100;
-            roman['D'] = 500;
-            roman['M'] = 1000;
-            String input = "IV";
+        //    roman['I'] = 1;
+        //    roman['V'] = 5;
+        //    roman['X'] = 10;
+        //    roman['L'] = 50;
+        //    roman['C'] = 100;
+        //    roman['D'] = 500;
+        //    roman['M'] = 1000;
+        //    String input = "IV";
 
-            Console.Write("int form of Roman Numeral is " + romanToInt(input));
-        }
+        //    Console.Write("int form of Roman Numeral is " + romanToInt(input));
+        //}
     }
 }
