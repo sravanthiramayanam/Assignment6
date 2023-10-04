@@ -37,14 +37,14 @@ namespace DesignURLShortner
             return id;
         }
 
-        public static void Main(String[] args)
-        {
-            int n = 12345;
-            String shorturl = idToShortURL(n);
-            Console.WriteLine("Generated short url is " + shorturl);
-            Console.WriteLine("Id from url is " +
-                                shortURLtoID(shorturl));
-        }
+        //public static void Main(String[] args)
+        //{
+        //    int n = 12345;
+        //    String shorturl = idToShortURL(n);
+        //    Console.WriteLine("Generated short url is " + shorturl);
+        //    Console.WriteLine("Id from url is " +
+        //                        shortURLtoID(shorturl));
+        //}
     }
 }
 
