@@ -38,13 +38,13 @@ namespace Assessment6
             return maxLength;
         }
 
-        public static void Main(String[] args)
-        {
-            var str = "abca";
-            Console.WriteLine("The input string is " + str);
-            var len = longestUniqueSubsttr(str);
-            Console.WriteLine("The length of the longest " + "non-repeating character " + "substring is " + len.ToString());
-        }
+        //public static void Main(String[] args)
+        //{
+        //    var str = "abca";
+        //    Console.WriteLine("The input string is " + str);
+        //    var len = longestUniqueSubsttr(str);
+        //    Console.WriteLine("The length of the longest " + "non-repeating character " + "substring is " + len.ToString());
+        //}
 
     }
 }
